@@ -4,7 +4,7 @@
 **README**
 
 **Disclaimer**
-This code is intended for educational and research purposes only. The authors are not responsible for any misuse of the code. Do not use this code for any illegal activities.
+The author is not responsible for any misuse of the code. Do not use this code for any illegal activities.
 
 **Description**
 This code installs and sets up various tools for ethical hacking and pentesting. The tools include Metasploit, sqlmap, Nmap, Wireshark, the Social Engineer Toolkit, and Wifite2. The code also installs dependencies and sets up proxychains and tor for anonymous browsing.
