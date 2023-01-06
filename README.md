@@ -17,8 +17,29 @@ The code can be run with the optional argument --delete to delete all installed 
 There will be situations for you as a pentester where you won't have access to your tools and software, or maybe all you have access to is an ordinary Debian Based Operating system. That's where this piece of software comes in handy.
 Always keep it on your USB drive and you will be able to get that machine up and ready for hacking in no time.
 
-#Note
+Features:
 
-This code needs lots of edits to be more user-friendly and I'm currently working on the next version that will offer the user to choose what he needs since I choose the packages and the tools based on what I usually use when pentesting 
+- Install and add Git to the PATH if it is not already installed on the system
 
-# Feel Free to Contribute 
+- Option to delete certain dependencies and tool directories using the --delete flag
+
+- Option to delete log files that were modified within the past 24 hours using the --clear-logs flag
+
+- Install a list of dependencies that are required to run the hacking tools mentioned above
+
+- Clone and install several hacking tools from GitHub
+
+- Install and configure Metasploit
+
+NEW:
+
+Improvements in this version of the software 
+
+The software is divided into 2 scripts now, one is for light fast work, and one that
+will install all the previous existing software mentioned in the previous versions
+
+dependencies installation for wifite has been fixed
+a new function is added: clear all the logs in the past 24 hours by running the 
+parameter --clear-logs after the script
+
+A new script has been added for light "LITE" usage and will install all the tools mentioned in the original script except for metasploit-framework
